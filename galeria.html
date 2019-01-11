@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria | Tu Restaurante</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Your Restaurant</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">04xx-123-7890</span>
+                </p>
+                <p class="main-header__contactInfo__adress">
+                    <span class="icon-location">Calle xx Urb. xxx - San Cristóbal, Venezuela</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galería</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/banner-galery.jpeg" alt="" class="banner__img">
+        <div class="banner__content">Los platos que tenemos para tí</div>
+    </section>
+
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestra Galería</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/gallery/gallery1.jpeg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/gallery/gallery2.png" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/gallery/gallery3.jpeg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/gallery/gallery4.jpeg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/gallery/gallery5.jpeg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/gallery/gallery6.jpeg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/gallery/gallery7.jpeg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/gallery/gallery8.jpeg" alt="" class="gallery__img gallery__img--big">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="main-footer">
+                <div class="container container--flex">
+                    <div class="column column--33">
+                        <h2 class="column__title">¿Por qué visitarnos?</h2>
+                        <p class="column__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error beatae corrupti quidem consequuntur exercitationem tempora rem numquam quia accusamus? Fuga totam quaerat minus, dolorem similique delectus sit laborum! Porro, laborum.</p>
+                    </div>
+                    <div class="column column--33">
+                        <h2 class="column__title">Contáctanos</h2>
+                        <p class="column__txt">Calle xx Urb. xxx - San Cristóbal, Venezuela</p>
+                        <p class="column__txt">04xx-123-7890</p>
+                        <p class="column__txt">contacto@turestaurante.com</p>
+                    </div>
+                    <div class="column column--33">
+                        <h2 class="column__title">Síguenos en nuestras redes sociales</h2>
+                        <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                        <p class="column__txt"><a href="" class="icon-twitter">Síguenos en Twitter</a></p>
+                        <p class="column__txt"><a href="" class="icon-youtube">Visita nuestro canal</a></p>
+                    </div>
+                    <p class="copy">© 2019 Your Restaurant | Todos los derechos reservados</p>
+                </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
